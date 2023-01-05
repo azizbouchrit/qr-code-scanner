@@ -2,7 +2,6 @@
   "name": "qr-code-scanner",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://azizbouchrit.github.io/qr-code-scanner",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -14,8 +13,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,6 +37,5 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
